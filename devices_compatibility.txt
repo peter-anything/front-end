@@ -1,0 +1,27 @@
+1. 重置元素的样式，使得其在各个浏览器保持一致
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ul, ol, li,
+form, label, fieldset, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: normal;
+    vertical-align: baseline;
+}
+2. 能够使用relative绝不使用absolute， 因为absolute会使得页面混乱。
+3. 不要把元素的width和height写死，除非不得不的情况。
+4. 有图片组成的页面，最好的是直接写入图片路径去适配各个手机大小。
+5. 单行居中， height和line-height设置为一样。
+6. 多行居中，table显示。
+7. 单个元素水平居中居中， 设置元素block，然后margin:auto；
+8. 单个元素水平居中居中， 设置元素inline-block，然后设置父元素text-align: center;
+9. 多个元素水平居中，可以通过在一个元素左右两边加入相同元素达到。
+10. 多个元素垂直居中，设置元素为inline-block，然后设置vertical-align:middle。
+
